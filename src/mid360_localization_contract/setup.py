@@ -12,7 +12,7 @@ setup(
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + package_name]),
         ("share/" + package_name, ["package.xml"]),
-        ("share/" + package_name + "/docs", ["README.md", "INTERFACE_CONTRACT.md"]),
+        ("share/" + package_name + "/docs", ["INTERFACE_CONTRACT.md"]),
         ("share/" + package_name + "/launch", glob("launch/*.launch.py")),
         (
             "share/" + package_name + "/config",

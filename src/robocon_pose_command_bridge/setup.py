@@ -8,7 +8,7 @@ setup(
     packages=[package_name],
     data_files=[
         ("share/ament_index/resource_index/packages", [f"resource/{package_name}"]),
-        (f"share/{package_name}", ["package.xml", "README.md", "UPSTREAM_NOTICE.md"]),
+        (f"share/{package_name}", ["package.xml", "UPSTREAM_NOTICE.md"]),
         (f"share/{package_name}/config", ["config/pose_command_bridge.yaml"]),
         (f"share/{package_name}/launch", ["launch/pose_command_bridge.launch.py"]),
     ],

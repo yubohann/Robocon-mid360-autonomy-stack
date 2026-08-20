@@ -13,7 +13,7 @@ setup(
         ("share/" + package_name, ["package.xml"]),
         ("share/" + package_name + "/config", glob("config/*.yaml")),
         ("share/" + package_name + "/launch", glob("launch/*.launch.py")),
-        ("share/" + package_name + "/docs", ["README.md", "UPSTREAM_NOTICE.md"]),
+        ("share/" + package_name + "/docs", ["UPSTREAM_NOTICE.md"]),
     ],
     install_requires=["setuptools"],
     zip_safe=True,
