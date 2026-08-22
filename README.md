@@ -4,6 +4,9 @@
 
 Robocon MID-360 Autonomy Stack is a modular research and engineering platform for LiDAR-driven mobile robotics. It connects Gazebo sensor simulation, Livox `CustomMsg` transport, FAST-LIO2 mapping, fixed-map localization, perception gating, pose-command arbitration, and safety-aware competition control in one reproducible ROS 2 workspace.
 
+For a Chinese, from-zero technical walkthrough of the complete stack, see
+[ROBOCON MID-360 从零技术导览](ROBOCON_MID360_从零技术导览.md).
+
 <p align="center">
   <a href="https://github.com/yubohann/Robocon-mid360-autonomy-stack/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/yubohann/Robocon-mid360-autonomy-stack/ci.yml?branch=main&label=CI&style=flat-square" alt="CI status"></a>
   <a href="https://github.com/yubohann/Robocon-mid360-autonomy-stack/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-team--owned-111827?style=flat-square" alt="License"></a>
